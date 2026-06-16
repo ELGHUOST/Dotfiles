@@ -1,4 +1,5 @@
-# Dotfiles NixOS + Hyprland
+# I use nixos btw
+## Dotfiles NixOS + Hyprland
 
 Mes premiers pas dans le ricing sous NixOS. C'est un setup en construction, loin d'être parfait, mais j'apprends en faisant.
 
