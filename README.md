@@ -107,7 +107,7 @@ sudo nixos-rebuild switch --flake .#<ton-host>
 
 ---
 
-## Ma machine
+## Imperator
 
 ```
 Systema   NixOS 25.11 (Xantusia) x86_64
