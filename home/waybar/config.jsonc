@@ -1,0 +1,58 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 38,
+  "spacing": 8,
+  "reload_style_on_change": true,
+  "exclusive": true,
+  "passthrough": false,
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": ["clock"],
+  "modules-right": ["cpu", "memory", "network", "pulseaudio", "tray"],
+  "hyprland/workspaces": {
+    "all-outputs": true,
+    "disable-scroll": false,
+    "format": "{name}"
+  },
+  "hyprland/window": {
+    "separate-outputs": true,
+    "max-length": 48
+  },
+  "clock": {
+    "format": "  {:%H:%M}",
+    "format-alt": "  {:%A %d %B %Y}"
+  },
+  "cpu": {
+    "format": "  {usage}%"
+  },
+  "memory": {
+    "format": "  {}%"
+  },
+  "network": {
+    "format-wifi": "  {signalStrength}%",
+    "format-ethernet": "󰈀  câble",
+    "format-disconnected": "󰖪  off"
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "󰖁  mute",
+    "format-icons": {
+      "default": ["", "", ""]
+    },
+    "on-click": "pavucontrol"
+  },
+  "tray": {
+    "spacing": 10
+  },
+  "mpris": {
+    "player": "playerctld",
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "  {dynamic}",
+    "dynamic-order": ["artist", "title"],
+    "dynamic-len": 40,
+    "tooltip-format": "{player} — {title}\n{artist}",
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-middle": "playerctl previous"
+  }
+}

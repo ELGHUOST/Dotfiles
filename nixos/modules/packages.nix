@@ -2,6 +2,11 @@
 {
   programs.firefox.enable    = true;
   nixpkgs.config.allowUnfree = true;
+
+  environment.sessionVariables = {
+    ELECTRON_OZONE_PLATFORM_HINT = "auto";
+  };
+
   environment.systemPackages = with pkgs; [
     # -------------------------
     # Terminal / shell
@@ -16,11 +21,17 @@
     neovim
     tree
     wget
+    claude-code
     # -------------------------
     # DevOps / Cloud
     # -------------------------
     kubectl
-    helm
+    kubernetes-helm
+    talhelper
+    talosctl
+    sops
+    age
+    cilium-cli
     # -------------------------
     # Lanceur / fichiers
     # -------------------------
@@ -55,29 +66,8 @@
     # -------------------------
     # Communication
     # -------------------------
-    betterdiscordctl
+    pcsx2
     vesktop
-    kdePackages.kdeconnect-kde
-    # -------------------------
-    # Gaming
-    # -------------------------
-    steam
-    heroic
-    (lutris.override {
-      extraLibraries = pkgs: with pkgs; [
-        vulkan-loader
-        libGL
-      ];
-      extraPkgs = pkgs: with pkgs; [
-        wineWowPackages.staging
-        winetricks
-        dxvk
-      ];
-    })
-    vulkan-tools
-    vulkan-loader
-    bottles
-    faugus-launcher
     # -------------------------
     # Wallpaper / thème
     # -------------------------
@@ -111,6 +101,7 @@
     # -------------------------
     unzip
     btop
+    p7zip
     # -------------------------
     # Neovim — dépendances LSP
     # -------------------------
