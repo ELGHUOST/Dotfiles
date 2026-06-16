@@ -24,13 +24,13 @@ L'interface se recolore dynamiquement selon le wallpaper choisi.
 
 **Système** : NixOS 25.11 (Xantusia) avec Home Manager en flakes
 
-**Compositeur** : Hyprland — tiling, animations, Wayland natif
+**Compositeur** : Hyprland , tiling, animations, Wayland natif
 
-**Shell de bureau** : Quickshell — barre, sidebar, launcher, panneaux écrits en QML. C'est la partie où j'ai le plus expérimenté.
+**Shell de bureau** : Quickshell , barre, sidebar, launcher, panneaux écrits en QML. C'est la partie où j'ai le plus expérimenté.
 
 **Barre alternative** : Waybar en backup
 
-**Launcher** : Rofi (wayland) — apps et sélection de wallpapers
+**Launcher** : Rofi (wayland) , apps et sélection de wallpapers
 
 **Terminal** : kitty / Alacritty
 
@@ -46,19 +46,19 @@ L'interface se recolore dynamiquement selon le wallpaper choisi.
 
 Environnement construit en QML au lieu de configurer un bar existant.
 
-- `Bar.qml` — barre supérieure avec workspaces, horloge, tray
-- `Dashboard.qml` — sidebar droite : profil, boutons power, jauges CPU/RAM/DISK, sliders volume/luminosité
-- `LauncherPanel.qml` — launcher avec onglets Apps/Walls et aperçus de wallpapers
-- `MusicPanel.qml` — lecteur "Now Playing" avec visualiseur audio
-- `WifiPanel.qml` / `BluetoothPanel.qml` — gestion réseau et Bluetooth
+- `Bar.qml` , barre supérieure avec workspaces, horloge, tray
+- `Dashboard.qml` , sidebar droite : profil, boutons power, jauges CPU/RAM/DISK, sliders volume/luminosité
+- `LauncherPanel.qml` , launcher avec onglets Apps/Walls et aperçus de wallpapers
+- `MusicPanel.qml` , lecteur "Now Playing" avec visualiseur audio
+- `WifiPanel.qml` / `BluetoothPanel.qml` , gestion réseau et Bluetooth
 - Mascotte animée pixel-art avec sélecteur d'animations
 
 ### Scripts (`home/scripts/`)
 
 Quelques scripts utilitaires :
-- `random-wallpaper.sh` — change le wallpaper et régénère la palette
-- `Music.sh` — contrôle playerctl
-- `define.sh` — dictionnaire en CLI
+- `random-wallpaper.sh` , change le wallpaper et régénère la palette
+- `Music.sh` , contrôle playerctl
+- `define.sh` , dictionnaire en CLI
 
 ### Thème dynamique
 
@@ -125,4 +125,4 @@ Memoria   15.57 GiB
 
 ---
 
-*Mes débuts dans le ricing — suggestions bienvenues.*
+*Mes débuts dans le ricing , suggestions bienvenues.*
