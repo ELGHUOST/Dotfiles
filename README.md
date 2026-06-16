@@ -5,6 +5,7 @@ Mes premiers pas dans le ricing sous NixOS. C'est un setup en construction, loin
 
 L'idée : une config reproductible avec un shell de bureau maison écrit en QML via Quickshell.
 
+## Dotfiles NixOS + Hyprland
 ![NixOS](https://img.shields.io/badge/NixOS-25.11_Xantusia-5277C3?style=flat-square&logo=nixos&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-0.52.1-58E1FF?style=flat-square)
 
