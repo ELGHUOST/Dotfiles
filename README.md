@@ -11,9 +11,10 @@ L'idée : une config reproductible avec un shell de bureau maison écrit en QML 
 
 ## Aperçu
 
-![screenshot](assets/screenshots/preview.png)
-
-*Screenshots à venir — je bosse encore dessus.*
+| | |
+|:-:|:-:|
+| ![forest](assets/screenshots/1.png) | ![visualizer](assets/screenshots/2.png) |
+| ![sky](assets/screenshots/3.png) | ![city](assets/screenshots/4.png) |
 
 L'interface se recolore dynamiquement selon le wallpaper choisi.
 
@@ -43,7 +44,7 @@ L'interface se recolore dynamiquement selon le wallpaper choisi.
 
 ### Quickshell (`home/quickshell/`)
 
-J'ai voulu apprendre QML en construisant mon propre environnement plutôt que de juste configurer un bar existant. C'est pas parfait mais ça m'a beaucoup appris.
+Environnement construit en QML au lieu de configurer un bar existant.
 
 - `Bar.qml` — barre supérieure avec workspaces, horloge, tray
 - `Dashboard.qml` — sidebar droite : profil, boutons power, jauges CPU/RAM/DISK, sliders volume/luminosité
