@@ -5,7 +5,7 @@
   home.stateVersion = "25.11";
 
   home.sessionVariables = {
-    KUBECONFIG = "/home/elghuost/.kube/config";
+    KUBECONFIG = "${config.home.homeDirectory}/.kube/config";
   };
 
   programs.zsh = {
