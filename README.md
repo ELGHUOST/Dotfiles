@@ -42,9 +42,7 @@ L'interface se recolore dynamiquement selon le wallpaper choisi.
 
 ---
 
-## Ce que j'ai fait moi-même
-
-### Quickshell (`home/quickshell/`)
+## Quickshell (`home/quickshell/`)
 
 Environnement construit en QML au lieu de configurer un bar existant.
 
@@ -55,7 +53,7 @@ Environnement construit en QML au lieu de configurer un bar existant.
 - `WifiPanel.qml` / `BluetoothPanel.qml` , gestion réseau et Bluetooth
 - Mascotte animée pixel-art avec sélecteur d'animations
 
-### Scripts (`home/scripts/`)
+## Scripts (`home/scripts/`)
 
 Quelques scripts utilitaires :
 - `random-wallpaper.sh` , change le wallpaper et régénère la palette
